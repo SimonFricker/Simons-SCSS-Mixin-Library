@@ -1,0 +1,6 @@
+// make dat background image cover
+@mixin bg-cover($position) {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: $position; 
+}

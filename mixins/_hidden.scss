@@ -1,0 +1,12 @@
+// make dat div hid in mobile
+@mixin hidden-mobile {
+  @include media ($tablet) {
+    display: none;
+  }
+}
+
+@mixin visible-mobile {
+  @include media ($desktop) {
+    display: none;
+  }
+}
